@@ -1,0 +1,595 @@
+
+/**** CSS ****/
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#cccccc;
+}
+
+video{ width: 337px; height: 190px; background-color:transparent; }
+.mejs-video { margin: 33px 0 0 38px; }
+
+
+/******** General Styles  **************/
+
+.leftSpacing20{margin-left:20px;}
+.rightSpacing20{margin-right:20px;}
+.topSpacing20{margin-top:20px;}
+.topSpacing20.last { margin-right: 0; }
+
+.clear { clear: both; }
+
+.clear:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/************** header **************/
+header{
+	height:130px;
+	background:white;
+	padding: 0 2.3%;
+}
+#logo  {
+
+}
+	#logo img {
+		padding-top:25px;
+		
+	}
+	
+
+	
+/************** banner **************/
+#banner{
+	padding:5% 5% 3% 5%;
+	position: relative;
+	background:#fff200;
+}
+
+/************** content **************/
+
+
+	h1 {
+		color: #363636;
+		font: bold 2.4em/1em 'Franklin ITC W01 Bold', Arial, Helvetica, sans-serif;
+	}
+	h2 { 
+		color: #363636;
+		font: 400 1em/1.2em 'Franklin ITC W01 Light', Arial, Helvetica, sans-serif;
+		word-wrap: break-word;
+	}
+
+	.boxHeaders{
+	margin-top:1%;
+	margin-right:5.5%;
+	float:right;
+	}
+		
+	
+	.topSpacing20 {
+		float: left;
+		width: 145px;
+		margin: 35px 30px 0 0;
+	}
+	.topSpacing20 .imgVideo img {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 0 0 5px;
+	}
+	
+	.content{
+		padding:0% 5%;
+		background:white;
+		
+	}
+	
+	.content .clear.separator {
+		display: none;
+	}
+	
+	
+	.YPGLinks{
+		float:left;
+		text-align:left;
+		padding:2% 0;
+		width:30.3333333%;
+	}
+	
+	.YPGLinksSeparator{
+		float:left;
+		background:#cccccc;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top:1.8%;
+		width:1px;
+		height:60px;
+	}
+	
+	.YPGLinks a{
+		font: 1em/1.1 'Franklin ITC W01 Light', Arial, Helvetica, sans-serif;
+		color:#363636;
+	}
+	
+	.YPGLinks a:hover{
+	text-decoration:underline;
+	}
+	
+	.linksVideo {
+		font-family: 'Franklin ITC W01 Light',Arial,Helvetica,sans-serif;
+		font-size: 0.9em;
+		line-height: 1.1em;
+		color:#363636;
+		margin-top:5px;
+		display:inline-block;
+	}
+	.fr .linksVideo { font-size: 15px; }
+	
+	.linksVideo img {
+		display: inline-block;
+		vertical-align: middle;
+		margin: -1px 0 0 10px;
+	}
+	
+	.wrapper-yt {
+		width: 337px; 
+		height: 190px;
+		margin: 33px 0 0 38px;
+	}
+	
+	div.sectionFooter {
+		background:#cccccc;
+		clear: both;
+		color: #363636;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 11px;
+		line-height: 16px;
+		padding: 30px 20px;
+		text-align: center;
+		
+	}
+
+
+.campAttack{
+	border-bottom:1px solid #cccccc;
+	padding:20px 0;
+}
+
+.blocText{width:40%; float:left;margin-bottom: 20px}
+
+.blocText .campTitle{
+	font-family: 'Franklin ITC W01 Bold', Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	word-wrap: break-word;
+	line-height:1;
+	margin-bottom: 5px;
+
+}
+
+.blocText .campSubtitle{
+	font-family: 'Franklin ITC W01 Light', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	word-wrap: break-word;
+	font-weight:bold;
+	line-height: 1.2em;
+
+}
+
+.blocText p{
+	padding:0; margin:0;
+	font-family: 'Franklin ITC W01 Light', Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.2em;
+
+}
+
+.pinterest{
+	 float:left;
+  	padding-left: 20px;
+   /* width: 17%;*/
+    }
+
+.pinterest .ic-pinterest{
+	display:block;
+	background:url('../images/ic-pinterest.jpg') no-repeat left;
+	color:#0098cd;
+	padding-left:40px;
+	font-family: 'Franklin ITC W01 Light', Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	min-height: 40px;
+	width: 80px;
+	margin-top:90%;
+}
+
+.blocBanner{width:40%; float:left;margin-top: 6%;}
+
+.blocBanner img{
+	display:block;
+	float:right;
+	width:100%;
+	}
+
+
+
+	
+/************** navigations **************/
+nav {
+	float:right;
+	padding-top:35px;
+}
+	nav li {
+		float:left;
+	}
+	
+	nav li.separator{
+		color:#cccccc; margin: 0 10px;
+	}
+	 
+	.mainLink {
+		font-size:12px;
+		color:#666666;
+	}
+	.mainLink:hover{
+		color:#666666;
+	}
+	
+	nav li.social{
+		padding-top:8px;
+		padding-right:5px;
+	}
+	
+	
+	
+/* ------------------------------------------------------------------- */
+/* MEDIA QUERIES */	
+/* ------------------------------------------------------------------- */
+
+@media screen and (min-width: 1100px) { 
+
+	#container{
+		height:100%;
+		background:#cccccc;
+		width:980px;
+		margin:0 auto;
+	}
+	
+	.boxHeaders { margin-right:7%; }
+	
+}	
+
+@media screen and (min-width: 1020px) and (max-width: 1030px) { 
+	
+	/*#banner { padding: 2.5%; }-*/
+	.boxHeaders { margin-right: 8%; }
+	.boxVideoEN, .boxVideoFR { margin-left: 50px; }
+	
+}
+
+@media screen and (max-width: 1010px) { 
+		
+	/*#banner { padding: 2%; }*/
+	
+}
+
+@media screen and (max-width: 900px) {
+	
+	.boxHeaders { max-width: 320px; margin-right: 4%; }
+	h1 { font-size: 2.1em; }
+	.fr h1 { font-size: 2em; }
+	h2 { font-size: 0.9em; }
+	.topSpacing20 { margin: 25px 25px 0 0; }
+	.topSpacing20.last { margin-right: 0; }
+	
+	.boxVideoEN, .boxVideoFR { width: 370px; height: 251px; }
+	.wrapper-yt { width: 304px; height: 172px; margin: 29px 0 0 34px; }
+	.mejs-video { width: 320px; height: 180px; margin: 30px 0 0 34px; }
+	
+}
+
+@media screen and (max-width: 780px) { 
+	
+	header {  padding: 0 15px; }
+	/*#logo img { width: 220px; padding: 19px 0 0; }
+	header nav { position: absolute; padding: 0; margin: 0; top: 25px; right: 15px; }*/
+	header nav li { display: none; }
+	header nav li.lang { display: block; }
+	header nav li.lang a { color: #a1a0a0; font: bold 12px/12px Arial; }
+	
+	/*#banner { padding: 20px; }*/
+
+	.boxHeaders { float: none; width: 279px; text-align:center; margin: 0 auto; }
+	.boxHeaders h1 { color: #363636; font: bold 36px/37px 'Franklin ITC W01 Bold', Arial, Helvetica, sans-serif; text-align: left; margin: 0 0 230px; }
+	.boxHeaders h2 { color: #363636; font: normal 15px/23px 'Franklin ITC W01 Light', Arial, Helvetica, sans-serif; text-align: left; padding: 10px 0 0; }
+	.fr .boxHeaders h2 { font-size: 14px; }
+	.topSpacing20 { float: none; width: 100%; margin: 20px 0 0; }
+	.linksVideo { font-size: 0.75em; display: block; text-align: left; }
+	.fr .linksVideo { font-size: 13px; text-align: left; }
+	
+	.wrapper-yt { width: 320px; height: 180px; margin: 0; }
+	.mejs-video { margin: 0; }
+	
+	.content { padding: 0 0 0 20px; }
+	.content .clear { display: block; }
+	
+	.YPGLinksSeparator { display: none; }
+	.YPGLinks{float:none; width:100%; }
+	.YPGLinks{padding: 3% 0; }
+	.YPGLinks { padding: 20px 0; }	
+	.YPGLinksSeparator { display: block; width: 105px; height: 1px; margin: 0; }
+	
+	div.sectionFooter { font-size: 10px; }
+
+	.blocText{
+		width:60%;
+	}
+
+	.blocBanner{width:60%;}
+
+
+	
+}
+
+@media screen and (max-width: 320px) { 
+
+	nav { float:none; clear:both; margin-left:10px; }
+	
+	.boxHeaders h2 br { display: none; }
+	
+	.boxVideoEN, .boxVideoFR { top: 176px; }
+	
+	.YPGLinks a { font-size: 1em; line-height: 1em; }
+
+
+	
+}
+
+
+
+
+#banner.holiday-wishes{
+	color:#575a5d!important;
+	background-color:#f0f0f0;
+}
+#banner.holiday-wishes h2{
+	font:700 1.6em/1.2em "Franklin ITC W01 ",Arial,Helvetica,sans-serif;color:#575a5d!important;
+}
+#banner.holiday-wishes p{
+	margin:0 0 30px 0;
+	line-height:normal;
+}
+.videothumb h3{
+	margin:0;
+	font-size:30px;
+	line-height:normal;
+	padding-top:20px
+}
+.videothumb a{
+	position:relative;
+}
+.videothumb img{
+	height:auto;
+	width:auto;
+	max-height:496px;
+	max-width:100%;
+}
+.roll-over {
+    position: relative;
+    z-index: 99;
+    display: block;
+    visibility: hidden;
+    margin: -30% auto 25% !important;
+	height:45px;
+	width:45px;
+}
+.videothumb a:hover .roll-over {
+	visibility:visible;
+}
+
+#see-more{
+	padding:35px 5%;
+	color:#444444;
+}
+#see-more .blocText{
+	width:100%;
+}
+
+.col-3{
+	/*float:left;*/
+	display:inline-block;
+	width:31.59%;
+	margin:0 2% 0 0;
+}
+.col-3:last-child{
+	margin:0;
+}
+.movie-links a {
+	position:relative;
+	clear:both;
+	display:block;
+}
+.movie-links a {
+	position:relative;
+	clear:both;
+	display:block;
+	min-height:158px;
+	color:#444444;
+	font-size: 1.1em
+}
+.movie-links span{
+	clear:both;
+	display:block;
+	min-height:158px;
+}
+.movie-links a > span{
+	background: #fee935;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZTkzNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYWQyM2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #fee935 0%, #fad23a 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fee935), color-stop(100%,#fad23a));
+	background: -webkit-linear-gradient(left,  #fee935 0%,#fad23a 100%);
+	background: -o-linear-gradient(left,  #fee935 0%,#fad23a 100%);
+	background: -ms-linear-gradient(left,  #fee935 0%,#fad23a 100%);
+	background: linear-gradient(to right,  #fee935 0%,#fad23a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee935', endColorstr='#fad23a',GradientType=1 );
+}
+.wish-list span span{
+	background: url(../images/icon2.png) center center no-repeat;
+	background-size:auto 122px !important;
+}
+.festive-menu  span span{
+	background: url(../images/icon3.png) center center no-repeat;
+	background-size:auto 88px !important;
+}
+.mistletoe  span span{
+	background: url(../images/icon4.png) center center no-repeat;
+	background-size:auto 91px !important;
+}
+.holidays  span span{
+	background: url(../images/thum_happy_holidays.jpg) center center no-repeat;
+	background-size:auto !important;
+}
+.movie-links .roll-over {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-25px 0 0 -23px!important;
+    /*margin:-33% auto 20% !important;*/
+}
+
+
+.social-media {
+	padding:30px 0;
+	text-align:center;
+	background-color:#444444;
+	color:#fff;
+}
+
+.social-media a{
+	display:inline-block;
+	float:none;
+	margin-right:7px;
+	padding:0;
+	height:40px;
+	/*width:40px;*/
+	color:#fff;
+}
+.social-media a img{
+	height:auto;
+	width:40px;
+	margin-right:16px;
+}
+.social-media li{
+	display:inline-block;
+	font-size:0.5em;
+}
+.social-media li span{
+	display:inline-block;
+	margin:0 10px;}
+
+@media screen and (max-width: 480px) { 
+	.col-3{
+		width:100%;
+		margin:0 0 15px 0;
+	}
+	#banner.holiday-wishes h2{
+		font:700 1.6em/1.2em "Franklin ITC W01 ",Arial,Helvetica,sans-serif;
+	}
+	.roll-over {
+		margin: -34% auto 22% !important;
+	}
+	.videothumb h3{
+		font-size:1em;
+	}
+	header{
+		height:130px;
+	}
+	header nav{
+		position:relative;
+		/*top:auto;
+		clear:both;*/padding-top:0;
+		display:block;
+	}
+	header nav li { display:inline-block; }
+	.videothumb h3 {padding-top: 15px;}
+
+}
+@media screen and (min-width: 480px) and (max-width: 600px) { 
+	.col-3{
+		width:100%;
+		margin:0 0 15px 0;
+	}
+	#banner.holiday-wishes h2{
+		font:700 1.6em/1.2em "Franklin ITC W01 ",Arial,Helvetica,sans-serif;
+	}
+	.movie-links .roll-over {
+		/*margin: -23% auto 13% !important;*/
+	}
+	.videothumb h3{
+	padding-top:0;
+	}
+	header{
+		/*height:108px;*/
+	}
+	header nav{
+		position:relative;
+		/*top:auto;
+		clear:both;*/padding-top:0;
+		display:block;
+	}
+	header nav li { display:inline-block; }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.col-3{
+		width:100%;
+		margin:0 0 15px 0;
+	}
+	.roll-over {
+		margin: -34% auto 25% !important;
+	}
+	.movie-links .roll-over {
+		/*-margin:-19% auto 10% !important;*/
+	}
+	header{
+		/*height:108px;*/
+	}
+	header nav{
+		position:relative;
+		/*top:auto;
+		clear:both;*/
+		display:block;
+	}
+	header nav li { display:inline-block; }
+	.videothumb h3 {padding-top: 30px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.col-3{
+		width:31.5%;
+		margin:0 2% 15px 0;
+	}
+	.movie-links .roll-over {
+		/*margin:-40% auto 20% !important;*/
+	}
+	/*header{
+		height:108px;
+	}*/
+	/*header nav{
+		position:relative;
+		top:auto;
+		clear:both;
+		display:block;
+	}*/
+	header nav li { display:inline-block; }
+}
+
+.pp_content{
+	max-height:360px !important;
+	overflow:hidden;
+}
